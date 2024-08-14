@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(
+root.render(    //가상돔 생성지점
   <RecoilRoot>
     <BrowserRouter>
       <App />

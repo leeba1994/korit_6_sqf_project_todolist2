@@ -14,7 +14,7 @@ function App() {
             <Global styles={reset} />
             <MainLayout>
                 <Routes>
-                    <Route path="/todo/*" element={<Dashboard />} />
+                    <Route path="/todo/*" element={<Dashboard />} />  
                     <Route path="/Note" element={<Note />} />
                     <Route path="/login" element={<></>} />
                     <Route path="/join" element={<></>} />
